@@ -1,12 +1,10 @@
-//#include <LiquidCrystal.h>
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
-
-//Crear el objeto lcd  dirección  0x y 16 columnas x 2 filas
-LiquidCrystal_I2C lcd(0x27,16,2);  //
-
 #include <dht11.h>
 #include <SoftwareSerial.h>
+
+//Crear el objeto lcd  dirección  0x y 16 columnas x 2 filas
+LiquidCrystal_I2C lcd(0x27,16,2);
 //#include <string>
 
 #define DHT11PIN A3 //Pin data del sensor
